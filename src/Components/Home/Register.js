@@ -16,7 +16,8 @@ class Register extends Component {
         lastName:"",
         email:"",
         password:"",
-        confirmPassword:""
+        confirmPassword:"",
+        errMsg:"",
     }
 
     render() {
