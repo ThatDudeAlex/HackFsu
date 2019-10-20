@@ -1,0 +1,55 @@
+  .home-title {
+    font-weight: bold;
+  }
+
+  .home-input {
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #12355B;
+    width: 100%;
+    margin-top: auto;
+    padding-bottom: 5px!important;
+}
+
+.home-inputs {
+  display: table-row;
+}
+
+.home-form {
+  height: 100%;
+  width: 100%;
+  display: table;
+  position: relative;
+}
+
+.home-label {
+  font-size: 110%;
+}
+
+.home-input::placeholder {
+  font-size: 80%;
+  color: #e0e0e0;
+}
+
+.home-btn {
+  background-color: #D64933 !important;
+  color: white!important;
+}
+
+.home-btn:hover {
+  background-color: rgb(165, 53, 36)!important;
+}
+
+.home-link {
+  color: gray;
+  background-color: transparent;
+  border: none;
+}
+
+.home-link:hover {
+  color: black;
+}
+
+.home-link:focus {
+  outline: none;
+}
